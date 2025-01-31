@@ -24,6 +24,8 @@ public class login {
         
         WebElement loginButton=driver.findElement(By.xpath("(//button[normalize-space()='Login'])[1]"));
         loginButton.click();
+        
+        
     }
 }
 
